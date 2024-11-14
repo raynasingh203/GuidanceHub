@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../Components/button'
 import Indicator from '../Components/Indicator'
 import Sidebar from '../Components/Sidebar'
+import Blur from '../Components/Blur'
 
 
 
@@ -10,7 +11,7 @@ const Page1 = () => {
   
 return (
         <>
-        <Button>  </Button>
+        <Button>  </Button> <Blur> </Blur>
               <div className='font-pixeloidmono text-5xl py-10'>
              ......
               </div>
