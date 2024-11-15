@@ -120,6 +120,7 @@ export default {
   },
   plugins: [ require('daisyui'),
     require('preline/plugin'),
+    [require("tailgrids/plugin")],
     
   ],
 }

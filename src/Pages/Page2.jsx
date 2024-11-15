@@ -2,23 +2,39 @@
 import React from 'react';
 import Button from '../Components/button'; 
 import ImageBentoBox from '../Components/ImageBentoBox';
+import Indicator from '../Components/Indicator';
 
 const Page2 = () => {
   return (
     <div className="font-pixeloidmono">
      
-      <div className=" pl-[10rem]">
+      <div className=" ">
         <Button />
-      </div>
+      </div> 
+      {/* nav bar  */}
+
+      {/* first layer  */}
+       
+      <div
+  className="grid grid-cols-7 mt-[3rem] ml-1 gap-4 transition-[grid-template-columns] lg:grid-cols-[1fr_160px] lg:gap-4 lg:[&:has(>*:last-child:hover)]:grid-cols-[1fr_160px] w-[470px] mx-auto"
+>
+  <div className="h-32 rounded-lg bg-gray-200"></div>
+  <div className="h-32 rounded-lg bg-gray-200"></div>
+</div>
+
+
+
+
 
  
-      <div className="flex items-start justify-end p-8 mt-4">
+ {/* end  */}
+      <div className="flex flex-row   text-2xl p-8 mt-4 max-w-5xl">
+  <p className="text-2xl font-semibold">HI, NAME Welcome to your Guidance Studio</p>
+  <div className="mr-8 mt-4">
+    
+  </div>
 
-        <div className="mr-8">
-          <p className="text-xl"></p>
-        </div>
-
-       
+       <div className='' >    <Indicator/>     </div>
         <div>
           <img
             src="src/assets/request.png" 
