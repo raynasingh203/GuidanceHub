@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Components/button'
+import Button from '../Components/Button'
 import Indicator from '../Components/Indicator'
 import Sidebar from '../Components/Sidebar'
 import Blur from '../Components/Blur'

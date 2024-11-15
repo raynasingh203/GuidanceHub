@@ -1,6 +1,6 @@
 // src/Pages/Page2.jsx
 import React from 'react';
-import Button from '../Components/button'; 
+import Button from '../Components/Button'; 
 import ImageBentoBox from '../Components/ImageBentoBox';
 import Indicator from '../Components/Indicator';
 
