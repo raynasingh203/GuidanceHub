@@ -1,23 +1,32 @@
 import React from 'react'
 
+import Button from '../Components/Button';
 
 const Page3 = () => {
-    return (
-        <div className="relative w-screen h-screen">
-        
-          <div className="absolute top-[7rem] left-10 z-10">
-            <Button />
-          </div>
+    return ( <>  
+      <div className="mb-4">
+      <Button />
+    </div>
+
+
+    <div className=' font-pixeloidmono text-black text-6xl ml-[-62rem] relative mt-[-2rem]   '   > query form </div>
       
+    <div className="mr-10 absolute inset-0 z-[-1] mt-[-11rem]">
+    <img src="/Images/imageback.png"  alt="Description" className="w-[300px] h-auto" />
+  </div>
         
-          <div className=" ml-[-10rem] mt-[-7rem]">
+          <div className=" absolute ml-[-1rem] mt-[5.5rem]">
             <img
               src="src/assets/ss.png"
               alt="Centered Image"
-              className="w-[15rem] h-[17rem] "
+              className="w-[79rem] h-[40rem] "
             />
           </div>
-        </div>
+
+         
+    
+
+           </>
       );
       
           

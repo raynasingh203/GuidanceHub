@@ -11,7 +11,7 @@ const Formonboard = () => {
     </div>
 
     <div className="flex ml-[21rem] h-screen">
-  <div className="w-[1rem] h-[65rem] mt-[-3rem] rounded-full bg-sunset-50"></div>
+  <div className="w-[1rem] h-[65rem] mt-[-3rem] shadow-2xl rounded-full bg-sunset-50"></div>
 </div>
 
  
@@ -27,7 +27,7 @@ const Formonboard = () => {
     <Card2form/> 
   </div>
 
-  <div className="absolute w-[46rem] h-[77rem] rounded-full   rounded-br-none bg-sunset-100 mt-[-60rem] ml-[36rem]  z-0">  
+  <div className="absolute w-[46rem] h-[77rem] rounded-full   rounded-br-none bg-white shadow-xl mt-[-60rem] ml-[36rem]  z-0">  
  
   </div>
 </div>

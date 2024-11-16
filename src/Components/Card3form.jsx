@@ -2,10 +2,16 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import TagSelect from './TagSelect';
 import TagSelect1 from './TagSelect1';
-import Formonboard from '../Pages/Formonboard';
+
 
 const Card3form = () => {
   const navigate = useNavigate(); // React Router hook for navigation
+
+
+  const handleNextClick = () => {
+   
+    navigate('/Page2'); 
+  };
 
   return (
     <div className="flex h-auto w-screen ml-[9rem] mt-[-57rem] items-center justify-center">
@@ -22,22 +28,34 @@ const Card3form = () => {
 
         <div className="flex mt-[-2rem] w-full flex-col">
          
-          <div className="mt-4 grid items-center gap-3 gap-y-5 sm:grid-cols-4">
-            <div className="flex flex-col sm:col-span-3">
-              <label className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500" htmlFor="">
-                Department
-              </label>
-              <select className="rounded-lg border px-4 py-2 font-pixeloidmono shadow-sm outline-none focus:ring" name="" id="">
-                <option value="CAC">CAC</option>
-                <option value="DMA">DMA</option>
-                <option value="VCSBt">VCSB</option>
-                <option value="HCD">HCD</option>
-                <option value="IADP">IADP</option>
-                <option value="CE">CE</option>
-              </select>
-            </div>
+        <div className="mt-4 grid items-center gap-3 gap-y-5 sm:grid-cols-4">
+  <div className="flex flex-col sm:col-span-3">
+    <label
+      className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500 rounded-full bg-gray-200 px-4 p-4 inline-block"
+      htmlFor=""
+    >
+      Department
+    </label>
+    <select
+      className="rounded-lg border px-4 py-2 font-pixeloidmono shadow-sm outline-none focus:ring"
+      name=""
+      id=""
+    >
+      <option value="CAC">CAC</option>
+      <option value="DMA">DMA</option>
+      <option value="VCSBt">VCSB</option>
+      <option value="HCD">HCD</option>
+      <option value="IADP">IADP</option>
+      <option value="CE">CE</option>
+    </select>
+  </div>
+
+
             <div className="col-span-1 flex flex-col">
-              <label className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500" htmlFor="">
+            <label
+      className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500 rounded-full bg-gray-200 px-4 p-4 inline-block"
+      htmlFor=""
+    >
                 Year
               </label>
               <select className="rounded-lg border font-pixeloidmono px-2 py-2 shadow-sm outline-none focus:ring" name="" id="">
@@ -77,12 +95,14 @@ const Card3form = () => {
           </div>
           <div className="flex ml-[2rem] mt-5 mb-5 justify-between sm:flex-row">
             <button
-              className="group my-2 flex w-10 items-center justify-center animate-pulse rounded-lg bg-gray-900 py-3 font-pixeloidmono py-2 text-center font-medium text-white outline-none transition sm:order-1 sm:w-40 focus:ring"
+              className="group my-2 flex w-10 items-center justify-center  rounded-br-none ml-14 animate-pulse rounded-full bg-gray-900 py-3 font-pixeloidmono py-2 text-center font-medium text-white outline-none transition sm:order-1 sm:w-40 focus:ring"
               onClick={() => navigate('/Formonboard')} // Navigate to forminit
             >
               Back
             </button>
-            <button className="group my-2 flex w-10 items-center justify-center animate-pulse rounded-lg bg-gray-900 py-3 font-pixeloidmono py-2 text-center font-medium text-white outline-none transition sm:order-1 sm:w-40 focus:ring">
+            <button className="group my-2 flex w-10 items-center  rounded-br-none justify-center animate-pulse rounded-full bg-gray-900 py-3 font-pixeloidmono py-2 text-center font-medium text-white outline-none transition sm:order-1 sm:w-40 focus:ring"
+            onClick={() => navigate('/Page2')}
+            >
               Continue
               <svg
                 xmlns="http://www.w3.org/2000/svg"

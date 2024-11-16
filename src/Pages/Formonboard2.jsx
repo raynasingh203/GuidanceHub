@@ -11,17 +11,25 @@ const Formonboard2 = () => {
     </div>
 
     <div className="flex ml-[21rem] h-screen">
-  <div className="w-[1rem] h-[68rem] mt-[-3rem] bg-black"></div>
+  <div className="w-[1rem] h-[68rem] mt-[-3rem] bg-sunset-50"></div>
 </div>
 
 
 <div className="mr-10 mt-[-60rem]">
-    <img src="src/assets/imageback.png"  alt="Description" className="w-[300px] h-auto" />
+    <img src="/Images/imageback.png"   alt="Description" className="w-[300px] h-auto" />
   </div>
     </div>
 
+    <div className="relative">  
+  <div className="relative z-10">
     <Card3form/> 
+  </div>
+
+  </div>
+ 
+
 </> 
+
   )
 }
 
