@@ -11,7 +11,7 @@ const Formonboard2 = () => {
     </div>
 
     <div className="flex ml-[21rem] h-screen">
-  <div className="w-[1rem] h-full mt-[-3rem] bg-black"></div>
+  <div className="w-[1rem] h-[68rem] mt-[-3rem] bg-black"></div>
 </div>
 
 

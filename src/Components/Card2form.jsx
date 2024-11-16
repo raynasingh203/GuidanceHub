@@ -11,9 +11,9 @@ const Card2form = () => {
 
   return (
     <div className="flex h-auto w-screen ml-[9rem] mt-[-57rem] items-center justify-center">
-      <div className="flex w-[34rem] flex-col rounded-3xl rounded-br-none bg-steel-50 px-6 shadow-2xl sm:px-14">
+      <div className="flex w-[34rem] flex-col rounded-full rounded-br-none bg-steel-50 px-6 shadow-2xl sm:px-14">
         <div className="flex w-full justify-between self-start pt-12 pb-8">
-          <h2 className="font-serif text-2xl font-pixeloidmono  font-semibold text-gray-700">YOUR ROLE </h2>
+          <h2 className="font-serif text-2xl font-pixeloidmono  font-extrabold text-black"> YOUR ROLE </h2>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-[1rem] w-5 cursor-pointer text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
@@ -22,7 +22,7 @@ const Card2form = () => {
           <div className="relative mb-4">
             <input className="peer hidden" id="radio_1" type="radio" name="radio" checked />
             <span className="absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white peer-checked:border-gray-900"></span>
-            <label className="flex cursor-pointer flex-col rounded-2xl border border-gray-300 bg-sunset-50 p-4 pr-8 sm:pr-16" for="radio_1">
+            <label className="flex cursor-pointer flex-col h-[10rem] rounded-full shadow-xl border border-gray-300 bg-sunset-50 p-4 pr-8 sm:pr-16" for="radio_1">
               <span className="mb-2 text-lg font-pixeloidmono font-semibold">Student</span>
               <p className="text-xs font-pixeloidmono "> Connect with faculty, get tailored recommendations, and receive expert support for your academic projects. Define your needs and find the perfect match for your journey.</p>
             </label>
@@ -30,7 +30,7 @@ const Card2form = () => {
           <div className="relative mb-4">
             <input className="peer hidden" id="radio_2" type="radio" name="radio" />
             <span className="absolute right-4 top-1/2 box-content block h-3 w-3 -translate-y-1/2 rounded-full border-8 border-gray-300 bg-white peer-checked:border-gray-900"></span>
-            <label className="flex cursor-pointer flex-col rounded-2xl border border-gray-300 bg-white p-4 pr-8 sm:pr-16" for="radio_2">
+            <label className="flex cursor-pointer flex-col rounded-full border border-gray-300 bg-white p-4 pr-8 sm:pr-16" for="radio_2">
               <span className="mb-2 text-lg font-pixeloidmono font-semibold">Faculty</span>
               <p className="text-xs font-pixeloidmono ">Share your expertise and mentor students seeking your guidance. Collaborate on innovative projects, support student growth, and help shape the academic experience by connecting with those who need your skills.</p>
             </label>
@@ -44,7 +44,7 @@ const Card2form = () => {
   
           <button
             onClick={handleNextClick} 
-            className="my-2 rounded-md bg-gray-900 py-3 font-pixeloidmono animate-pulse font-medium text-white"
+            className="my-2 rounded-full bg-gray-900 py-3 font-pixeloidmono w-[10rem] ml-[20rem] rounded-br-none  animate-pulse font-medium text-white"
           >
             Next
           </button>
