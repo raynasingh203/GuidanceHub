@@ -58,7 +58,7 @@ const Button = () => {
           className="btn px-4 bg-white text-black text-2xl rounded-l-lg hover:bg-lime-100 focus:outline-none"
           onClick={toggleNav}
         >
-          <img src="src/assets/plus-math.png" alt="Icon" className="w-6 h-6" />
+          <img src="/Images/plus-math.png" alt="Icon" className="w-6 h-6" />
         </button>
 
         {/* conditional rendering */}
@@ -94,7 +94,7 @@ const Button = () => {
           className="btn px-4 bg-white text-black text-2xl rounded-l-lg hover:bg-lime-100 focus:outline-none"
           onClick={toggleExplore}
         >
-          <img src="src/assets/reading-unicorn.png" alt="Icon" className="w-6 h-6" />
+          <img src="/Images/reading-unicorn.png" alt="Icon" className="w-6 h-6" />
         </button>
 
         
@@ -112,7 +112,7 @@ const Button = () => {
           className="btn px-4 bg-sunset-50 text-black text-2xl rounded-l-lg hover:bg-white focus:outline-none"
           onClick={navigateToPage2}
         >
-          <img src="src/assets/client-management.png" alt="Icon" className="w-6 h-6" />
+          <img src="/Images/client-management.png" alt="Icon" className="w-6 h-6" />
         </button>
       </div>
     </div>

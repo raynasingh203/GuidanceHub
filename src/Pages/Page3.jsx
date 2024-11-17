@@ -74,7 +74,7 @@ const Page3 = () => {
         
       <div className="absolute ml-[-1rem] mt-[5.5rem]">
         <img
-          src="src/assets/ss.png"
+          src="/Images/ss.png"
           alt="Centered Image"
           className="w-[79rem] h-[40rem]"
         />

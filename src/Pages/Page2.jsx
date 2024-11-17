@@ -48,7 +48,7 @@ const Page2 = () => {
           {/* Request PNG (Div 3) */}
           <div className="relative p-4 rounded-lg flex justify-center items-center w-[60%] h-[calc(110%+5rem)]">
             <img
-              src="src/assets/request.png" 
+              src="/Images/request.png" 
               alt="Request"
               className="w-full h-auto object-cover rounded-lg"
             />
