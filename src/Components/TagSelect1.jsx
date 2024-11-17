@@ -25,13 +25,13 @@ const TagSelect1 = () => {
       if (selectedTags.includes(value)) {
         setSelectedTags(selectedTags.filter(tag => tag !== value)); // Remove tag
       } else {
-        setSelectedTags([...selectedTags, value]); // Add tag
+        setSelectedTags([...selectedTags, value]); 
       }
     };
   
    
     const handleSearchChange = (event) => {
-      setSearchQuery(event.target.value); // Update the search query state
+      setSearchQuery(event.target.value); 
     };
   
     return (

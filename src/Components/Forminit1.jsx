@@ -19,8 +19,8 @@ const Forminit1 = () => {
                 Welcome to GuidanceHub 💁
               </h1>
               <p className="mt-4 leading-relaxed font-pixeloidmono text-gray-500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-                quibusdam aperiam voluptatum.
+               
+Guidance Hub is a platform designed to connect students with experienced mentors, faculty, and experts to provide personalized academic, career, and personal development advice.
               </p>
               <form action="#" className="mt-8 grid grid-cols-6 gap-6">
                 <div className="col-span-6 sm:col-span-3">

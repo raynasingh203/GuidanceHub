@@ -29,7 +29,12 @@ const Button = () => {
     const navigateToPage3 = () => {
       navigate('/Page3'); 
       
-  }
+  };
+  const navigateToFaculty = () => {
+    navigate('/Faculty'); 
+  } 
+
+
 
   return (
     <div className="bg-steel-50 backdrop-blur-md shadow-xl rounded-full ml-[1rem] w-[74rem] h-16">
@@ -76,8 +81,9 @@ const Button = () => {
             <button
               type="submit"
               className="btn px-8 bg-black text-white text-lg rounded-l-lg hover:bg-grey-200 focus:outline-none"
+              onClick={navigateToFaculty}
             >
-              works
+             faculty
             </button>
           </>
         )}

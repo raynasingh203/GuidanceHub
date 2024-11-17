@@ -31,7 +31,7 @@ const Card3form = () => {
         <div className="mt-4 grid items-center gap-3 gap-y-5 sm:grid-cols-4">
   <div className="flex flex-col sm:col-span-3">
     <label
-      className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500 rounded-full bg-gray-200 px-4 p-4 inline-block"
+      className="mb-1 ml-3  font-pixeloidmono text-black rounded-full font-semibold bg-sunset-50 px-4 p-4 inline-block"
       htmlFor=""
     >
       Department
@@ -53,7 +53,7 @@ const Card3form = () => {
 
             <div className="col-span-1 flex flex-col">
             <label
-      className="mb-1 ml-3 font-semibold font-pixeloidmono text-gray-500 rounded-full bg-gray-200 px-4 p-4 inline-block"
+      className="mb-1 ml-3 font-semibold font-pixeloidmono text-blck rounded-full bg-sunset-50 px-4 p-4 inline-block"
       htmlFor=""
     >
                 Year

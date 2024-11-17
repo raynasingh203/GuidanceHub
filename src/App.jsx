@@ -12,6 +12,8 @@ import Forminit from './Pages/Forminit'
 import LoadingPage from './Pages/LoadingPage'
 import Formonboard from './Pages/Formonboard'
 import Formonboard2 from './Pages/Formonboard2'
+import Recommendation from './Pages/Recommendation'
+import Faculty from './Pages/Faculty'
 
 function App() {
 
@@ -34,7 +36,8 @@ function App() {
        <Route path = "/LoadingPage" element= {<LoadingPage />} /> 
        <Route path = "/Formonboard" element= {<Formonboard />} /> 
        <Route path = "/Formonboard2" element= {<Formonboard2 />} /> 
-       
+       <Route path = "/Recommendation" element= {<Recommendation />} /> 
+       <Route path = "/Faculty" element= {<Faculty />} /> 
 
       
 

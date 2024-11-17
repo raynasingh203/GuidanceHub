@@ -5,7 +5,7 @@ const Logosmall = () => {
         <div className=" ">
         <a
           role="button"
-          className="btn w-16 h-[32.5rem] px-[1rem] bg-sunset-50 text-black text-2xl rounded-l-lg hover:bg-grey-100 focus:outline-none"
+          className="btn w-16 h-[32.5rem] px-[1rem] bg-steel-50 text-black text-2xl rounded-l-lg hover:bg-grey-100 focus:outline-none"
         >
           
         </a> </div>

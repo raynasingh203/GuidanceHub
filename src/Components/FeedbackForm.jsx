@@ -90,7 +90,7 @@ const FeedbackForm = () => {
 
         {/* Additional Ratings */}
         <div className="flex flex-col mb-4">
-          <span className="text-lg font-pixeloidmono font-semibold">Overall Feedback</span>
+          <span className="text-sm font-pixeloidmono font-semibold">How accurately did the suggestion align with your preferences?</span>
           <div className="flex space-x-2">
             {[1, 2, 3, 4, 5].map((rating) => (
               <div

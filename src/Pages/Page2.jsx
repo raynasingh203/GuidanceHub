@@ -1,29 +1,28 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import Button from '../Components/Button'; 
 import ImageBentoBox from '../Components/ImageBentoBox';
 import Indicator from '../Components/Indicator';
 import FeedbackForm from '../Components/FeedbackForm';
 
 const Page2 = () => {
+  const navigate = useNavigate(); // React Router's navigation hook
+
   return (
     <div className="font-pixeloidmono relative">
       {/* Navbar */}
       <div className="mb-4">
         <Button />
       </div>
+      <div className="font-pixeloidmono text-black text-8xl ml-[-70rem] mt-[-2rem] animate-pulse">home</div>
 
-       
+      {/* Background Images */}
       <div className="absolute inset-0 z-[-1]">
-        <img src="/Images/imageback.png" alt="Background" className="w-[17rem] h-full  mt-[-2rem] ml-[-16rem]" />
-      </div> 
-
+        <img src="/Images/imageback.png" alt="Background" className="w-[17rem] h-full mt-[-2rem] ml-[-16rem]" />
+      </div>
       <div className="absolute inset-0 z-[-1]">
         <img src="/Images/imageback.png" alt="Background" className="w-[17rem] h-[49rem] mt-[-2rem] ml-[70rem]" />
       </div>
-
-      {/* <div className="absolute inset-0 z-[-1]">
-        <img src="/Images/imageback.png" alt="Background" className="w-[17rem] h-[49rem] mt-[-2rem] ml-[36rem]" />
-      </div> */}
       <div className="absolute inset-0 z-[-1]">
         <img src="/Images/imageback.png" alt="Background" className="w-[17rem] h-[49rem] mt-[-2rem] ml-[16rem]" />
       </div>
@@ -33,7 +32,7 @@ const Page2 = () => {
         {/* First Row */}
         <div className="flex space-x-4">
           {/* Text Section (Div 1) */}
-          <div className="relative p-4 rounded-full shadow-xl bg-gray-300 rounded-br-none  text-sunset-50 flex flex-col justify-center w-[20%]">
+          <div className="relative p-4 rounded-full shadow-xl bg-gray-300 rounded-br-none text-sunset-50 flex flex-col justify-center w-[20%]">
             <p className="text-2xl font-semibold">
               HI, NAME
               <br />
@@ -59,13 +58,16 @@ const Page2 = () => {
         {/* Second Row */}
         <div className="flex gap-4">
           {/* Text Section Below Div1 and Div2 (Div 4) */}
-          <div className="relative bg-gray-100 p-4 rounded-lg shadow-lg w-[30%]">
-            <p className="text-center">This is the content of Div4, spanning the width of Div1 and Div2.</p>
+          <div className="relative bg-gray-100 p-4 text-3xl rounded-lg shadow-lg w-[30%]">
+            <p className="text-center">Featured Works</p>
           </div>
 
           {/* New Div (Div 5) beside Div4 */}
-          <div className="relative bg-gray-100 p-4 rounded-lg shadow-lg w-[70%]">
-            <p className="text-center">This is the content of Div5, same height as Div4.</p>
+          <div
+            className="relative bg-gray-100 text-3xl text-black p-4 rounded-lg shadow-lg w-[70%] cursor-pointer hover:bg-gray-200 transition"
+            onClick={() => navigate('/Recommendation')} // Navigate to Recommendations page
+          >
+            <p className="text-center">View Recommendations</p>
           </div>
         </div>
 

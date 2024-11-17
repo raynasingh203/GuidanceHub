@@ -3,7 +3,7 @@ import Forminit1 from '../Components/Forminit1';
 import Logo from '../Components/Logo';
 import Logosmall from '../Components/Logosmall';
 // import Logohorizontal from '../Components/Logohorizontal';
-import bodyBg from '../assets/exported-image-6.png';
+import bodyBg from '/Images/exported-image-9.png';
 import Card from '../Components/Card';
 import Div from '../Components/Div';
 
